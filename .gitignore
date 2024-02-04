@@ -1,0 +1,25 @@
+# Archivos de configuración de VS Code
+.vscode/
+
+# Archivos de registro
+*.log
+
+# Directorio de salida
+/dist
+
+# Directorios de dependencias
+/node_modules
+/bower_components
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de caché
+*.cache
+*.class
+*.pyc
+*.pyo
+
+# Archivos de entorno
+.env
