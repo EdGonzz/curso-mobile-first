@@ -10,6 +10,8 @@
     --h2-mobile: 1.4rem;
     --h1-tablet: 4rem;
     --h2-tablet: 2rem;
+    --font-dm-sans: 'DM Sans', sans-serif;
+    --font-inter: 'Inter', sans-serif;
     --linear-BG: linear-gradient();
     --bitcoin-orange: #F7931A;
     --soft-orange: #FFE9D4;
@@ -23,6 +25,5 @@
 }
 
 html {
-    font-family: 'DM Sans', sans-serif;
     font-size: 62.5%;
 }
