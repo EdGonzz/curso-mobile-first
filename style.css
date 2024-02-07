@@ -1,0 +1,28 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+* {
+    --h1-mobile: 2.4rem;
+    --h2-mobile: 1.4rem;
+    --h1-tablet: 4rem;
+    --h2-tablet: 2rem;
+    --linear-BG: linear-gradient();
+    --bitcoin-orange: #F7931A;
+    --soft-orange: #FFE9D4;
+    --secondary-blue: #1A9AF7;
+    --soft-blue: #E7F5FF;
+    --warm-black: #201E1C;
+    --warm-black-1: #282623;
+    --gray: #bababa;
+    --off-white: #FAF8F7;
+    --just-white: #FFFFFF; 
+}
+
+html {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 62.5%;
+}
