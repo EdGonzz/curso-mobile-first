@@ -34,6 +34,7 @@
   --warm-black: #201E1C;
   --warm-black-1: #282623;
   --grey: #757575;
+  --medium-grey: #808080;
   --soft-gray: #bababa;
   --off-white: #FAF8F7;
   --just-white: #FFFFFF;
@@ -122,7 +123,7 @@ main {
 .main-exchange {
   width: 100%;
   padding-top: 60px;
-  padding-bottom: 30px;
+  padding-bottom: 90px;
   text-align: center;
 }
 .main__bitcoin-img {
@@ -181,7 +182,6 @@ main {
   max-width: 3000px;
   height: 250px;
   margin: 0 auto;
-  margin-bottom: 15px;
 }
 .container__table table {
   width: 100%;
@@ -233,6 +233,7 @@ main {
   height: 31px;
   margin: 0 auto;
   padding-top: 10px;
+  margin-top: 18px;
   margin-bottom: 30px;
   border-radius: 8px;
 }
@@ -241,4 +242,99 @@ main {
 }
 .commissions--footer {
   background-color: var(--soft-blue);
+}
+.main__product-detail {
+  width: 100%;
+  min-width: 320px;
+  height: auto;
+  background-color: var(--warm-black);
+  position: relative;
+  padding-top: 60px;
+  padding-bottom: 48px;
+}
+.divider {
+  background-image: url(/assets/icons/batata.svg);
+  width: 41px;
+  height: 25px;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: -12px;
+  left: calc(50% - 20.5px);
+}
+.header__product-detail {
+  width: 90%;
+  height: auto;
+  min-width: 288px;
+  max-width: 900px;
+  text-align: center;
+  margin: 0 auto;
+}
+.header__product-detail h2 {
+  font-size: var(--h1-mobile);
+  font-weight: 700;
+  color: var(--just-white);
+  line-height: var(--line-height-large);
+  margin-bottom: 20px;
+}
+.header__product-detail p {
+  font-size: var(--font-size-s);
+  font-weight: 500;
+  color: var(--medium-grey);
+  line-height: var(--line-height-small);
+  margin-bottom: 32px;
+}
+.container__products-card {
+  width: 90%;
+  height: auto;
+  min-width: 288px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+.product-detail__card {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 16px;
+  padding: 16px;
+  background-color: var(--warm-black-1);
+  border-radius: 4px;
+}
+.product-detail__card:last-child {
+  margin-bottom: 0;
+}
+.header__product-detail-card {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.header__product-detail-card h3 {
+  font-size: var(--font-size-l);
+  font-weight: 700;
+  color: var(--just-white);
+  line-height: var(--line-height-normal);
+  margin-top: 10px;
+}
+.product-detail__description {
+  font-size: var(--font-size-s);
+  font-weight: 500;
+  color: var(--medium-grey);
+  line-height: var(--line-height-small);
+  margin-top: 10px;
+}
+.icon-details {
+  width: 24px;
+  height: 24px;
+  background-repeat: no-repeat;
+}
+.clock {
+  background-image: url("./assets/icons/clock.svg");
+}
+.eye {
+  background-image: url("./assets/icons/eye.svg");
+}
+.dollar-sign {
+  background-image: url("./assets/icons/dollar-sign.svg");
+}
+.check-circle {
+  background-image: url("./assets/icons/check-circle.svg");
 }
