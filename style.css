@@ -338,3 +338,21 @@ main {
 .check-circle {
   background-image: url("./assets/icons/check-circle.svg");
 }
+.bitcoin-banner__container {
+  width: 100%;
+  min-width: 320px;
+  height: 50vh;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-image: url("./assets/img/bitcoinbaby2x.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.bitcoin-banner__container h2 {
+  font-size: var(--h1-mobile);
+  font-weight: 700;
+  color: var(--just-white);
+  line-height: var(--line-height-large);
+  text-align: center;
+}
