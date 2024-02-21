@@ -483,7 +483,7 @@ main {
   color: var(--just-white);
   padding: 4px;
 }
-footer {
+.footer__section {
   width: 100%;
   min-width: 320px;
   height: 150px;
