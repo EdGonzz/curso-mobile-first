@@ -483,3 +483,35 @@ main {
   color: var(--just-white);
   padding: 4px;
 }
+footer {
+  width: 100%;
+  min-width: 320px;
+  height: 150px;
+  background-color: var(--bitcoin-orange);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.link__container, .copyright__container {
+  display: flex;
+  flex-direction: column;
+}
+.copyright__container {
+  align-items: center;
+}
+.link__container a {
+  font-size: var(--font-size-s);
+  font-weight: 500;
+  color: var(--just-white);
+  line-height: var(--line-height-large);
+  text-decoration: none;
+}
+.copyright__container img {
+  width: 64 ;
+  height: 50px;
+}
+.copyright__container p {
+  font-weight: 500;
+  color: var(--just-white);
+  line-height: var(--line-height-large);
+}
