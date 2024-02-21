@@ -156,11 +156,19 @@ main {
   margin-bottom: 40px;
 }
 .main__table {
-  width: 70%;
+  width: 90%;
   min-width: 235px;
   max-width: 500px;
   margin: 0 auto;
   font-family: var(--font-inter);
+  display: flex;
+  overflow-x: scroll;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x proximity;
+}
+.table__container {
+  margin: 0 5px;
+  scroll-snap-align: center;
 }
 .header__title-table {
   margin-bottom: 15px;
