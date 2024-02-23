@@ -52,15 +52,16 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  gap: 20px;
   width: 100%;
   min-width: 320px;
-  height: 320px;
+  height: 280px;
   text-align: center;
   background-image: linear-gradient(to right top, #f7931a, #bb751f, #835721, #4f3a20, #201e1c);
 }
 .header img {
   margin-top: 20px;
-  width: 160px;
+  width: 180px;
   height: 30px;
   align-self: center;
 }
@@ -69,8 +70,7 @@ html {
   min-width: 288px;
   max-width: 900px;
   height: 164px;
-  margin-top: 40px;
-  text-align: center;
+  margin-top: 8px;
   align-self: center;
 }
 .header__title-container h1 {
