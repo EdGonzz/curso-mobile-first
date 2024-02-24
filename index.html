@@ -17,23 +17,24 @@
 
   <header class="header">
     <img src="/assets/img/logo.svg" alt="Una batata chip con el nombre de la empresa BatataBit">
-    <div class="header__title-container">
-      <h1>La próxima revolución en el intercambio de criptomonedas.</h1>
-      <p>Batatabit te ayuda a navegar entre los diferentes precios y tendencias.</p>
+    <div class="header-standard__container">
+      <h1 class="title__container title__container--white">La próxima revolución en el intercambio de criptomonedas.</h1>
+      <p class="paragraph__container paragraph__container--soft-orange">Batatabit te ayuda a navegar entre los diferentes precios y tendencias.</p>
     </div>
-    <a href="#plans" class="header__bottom">Conoce Nuestros Planes <span></span></a>
+    <a href="#main__plans-container" class="header__bottom">Conoce Nuestros Planes <span></span></a>
   </header>
 
   <main>
-    <section class="main-exchange">
+
+    <section id="main-exchange" class="main-standard__container">
       <div class="main__bitcoin-img">
 
       </div>
-      <header class="main__header-title">
-        <h2>Visibilizamos todas las tasas de cambio.</h2>
-        <p>Traemos información en tiempo real de las casas de cambio y las monedas más importantes del mundo.</p>
+      <header class="header-standard__container">
+        <h2 class="title__container title__container--warm-black">Visibilizamos todas las tasas de cambio.</h2>
+        <p class="paragraph__container paragraph__container paragraph__container--gray">Traemos información en tiempo real de las casas de cambio y las monedas más importantes del mundo.</p>
       </header>
-      <section class="main__table">
+      <section class="main__table action--slider">
         <div class="table__container">
           <header class="header__title-table currency__table">
             <h3>Monedas</h3>
@@ -42,19 +43,19 @@
             <table>
               <tbody>
                 <tr>
-                  <td class="top-table__left">Bitcoin</td>
+                  <td class="top-table__left"><span class="btc logo__table--position"></span>Bitcoin</td>
                   <td class="top-table__right table--right">$ 1.96 <span class="down-arrow"></span></td>
                 </tr>
                 <tr>
-                  <td>Ethereum</td>
+                  <td><span class="eth logo__table--position"></span>Ethereum</td>
                   <td class="table--right">$ 0.07 <span class="up-arrow"></span></td>
                 </tr>
                 <tr>
-                  <td>Ripple</td>
+                  <td><span class="xrp logo__table--position"></span>Ripple</td>
                   <td class="table--right">$ 2.15 <span class="down-arrow"></span></td>
                 </tr>
                 <tr>
-                  <td class="bottom-table__left">Stellar</td>
+                  <td class="bottom-table__left"><span class="xml logo__table--position"></span>Stellar</td>
                   <td class="bottom-table__right table--right">$ 4.96 <span class="down-arrow"></span></td>
                 </tr>
               </tbody>
@@ -72,20 +73,20 @@
             <table>
               <tbody>
                 <tr>
-                  <td class="top-table__left">Bitrade</td>
-                  <td class="top-table__right table--right">$ 12.96</td>
+                  <td class="top-table__left"><span class="binance logo__table--position"></span>Binance</td>
+                  <td class="top-table__right table--right table--center">$ 12.96</td>
                 </tr>
                 <tr>
-                  <td>Bitpreco</td>
-                  <td class="table--right">$ 13.07</td>
+                  <td><span class="coinbase logo__table--position"></span>Coinbase</td>
+                  <td class="table--right table--center">$ 13.07</td>
                 </tr>
                 <tr>
-                  <td>Novadax</td>
-                  <td class="table--right">$ 13.15</td>
+                  <td><span class="kucoin logo__table--position"></span>Kucoin</td>
+                  <td class="table--right table--center">$ 13.15</td>
                 </tr>
                 <tr>
-                  <td class="bottom-table__left">Coinext</td>
-                  <td class="bottom-table__right table--right">$ 14.96</td>
+                  <td class="bottom-table__left"><span class="kraken logo__table--position"></span>Kraken</td>
+                  <td class="bottom-table__right table--right table--center">$ 14.96</td>
                 </tr>
               </tbody>
             </table>
@@ -96,12 +97,11 @@
         </div>
       </section>
     </section>
-
-    <section class="main__product-detail">
+    <section id="main__product-detail" class="main-standard__container main-standard__container--warm-black">
       <span class="divider"></span>
-      <header class="header__product-detail">
-        <h2>Creamos un producto sin comparación.</h2>
-        <p>Confiable y diseñado para su uso diario.</p>
+      <header class="header-standard__container">
+        <h2 class="title__container title__container--white">Creamos un producto sin comparación.</h2>
+        <p class="paragraph__container paragraph__container--medium-gray">Confiable y diseñado para su uso diario.</p>
       </header>
       <section class="container__products-card">
         <div>
@@ -150,15 +150,19 @@
         
       </section>
     </section>
-    <section class="bitcoin-banner__container">
-      <h2>Conócelo hoy.</h2>
+    <section id="bitcoin-banner__container" class="banner__container">
+      <h2 class="title__container title__container--white top--position">Conócelo hoy.</h2>
+      <picture>
+        <source srcset="/assets/img/bitcoinbaby-2x.webp" media="(min-width: 700px)">
+        <img loading="lazy" src="/assets/img/bitcoinbaby-1x.webp" alt="Imagen en formato monocromática sepia de una chica sosteniendo a nivel de sus ojos dos Bitcoins">
+      </picture>
     </section>
-    <section id="plans" class="main__plans-container">
-      <header class="header__plans-container">
-        <h2>Escoge el plan que mejor se ajuste a ti.</h2>
-        <p>Cualquier plan te da acceso completo a nuestra plataforma.</p>
+    <section id="main__plans-container" class="main-standard__container">
+      <header class="header-standard__container">
+        <h2 class="title__container title__container--warm-black">Escoge el plan que mejor se ajuste a ti.</h2>
+        <p class="paragraph__container paragraph__container--gray">Cualquier plan te da acceso completo a nuestra plataforma.</p>
       </header>
-      <section class="plans__slider">
+      <section class="plans__slider action--slider">
         <article class="plan__card">
           <header class="header__plan">
             <h3 class="header__type-plan">Pago mensual</h3>
@@ -188,15 +192,17 @@
         </article>
       </section>
     </section>
+
   </main>
   <footer class="footer__section">
     <section class="link__container">
-      <a href=""><small>Linkedin</small></a>
+      <a href=""><small>LinkedIn</small></a>
       <a href=""><small>Crunchbase</small></a>
       <a href=""><small>Hackernews</small></a>
     </section>
     <section class="copyright__container">
-      <img src="/assets/img/logo-footer.svg" alt="Logo batatabit">
+      <span class="logo__batatabit"></span>
+      <p>Realizado con amor por <a href="https://github.com/EdGonzz" target="_blank">EdGonz</a>🤍</p>
     </section>
   </footer>
 </body>

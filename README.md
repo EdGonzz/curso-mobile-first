@@ -6,4 +6,9 @@ En este curso también fundamentamos lo aprendido en el curso de [Curso Definiti
 
 ## Mejoras
 
-En este proyecto me tome la libertad de cambiar un poco el diseño
+En este proyecto me tome la libertad de cambiar algunas cosas como:
+
+* Mejore el diseño de la landing page.
+* Optimice todos los recursos.
+* Opte por mejorar la semántica del HTML.
+* Utilice la metodología de BEM para ahorrar lineas de código en mi CSS
