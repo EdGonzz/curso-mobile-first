@@ -7,11 +7,11 @@
 
 :root {
   /* font-size */
-  --h1-tablet: 4rem;
-  --h2-tablet: 2rem;
-  --mobile-size-xl: 2.4rem;
-  --mobile-size-l: 1.4rem;
-  --mobile-size-m: 1.8rem;
+  --mobile-size-xxxl: 2.8rem;
+  --mobile-size-xxl: 2.2rem;
+  --mobile-size-xl: 2rem;
+  --mobile-size-l: 1.8rem;
+  --mobile-size-m: 1.4rem;
   --mobile-size-s: 1.6rem;
   --mobile-size-ss: 1.4rem;
   --mobile-size-xs: 1.2rem;
@@ -43,6 +43,8 @@ html {
   font-size: 62.5%;
   font-family: var(--font-dm-sans);
   scroll-behavior: smooth;
+  scrollbar-width: thin;
+  scrollbar-color: var(--bitcoin-orange) var(--just-white);
 }
 
 /* header */
@@ -70,7 +72,7 @@ html {
   min-width: 288px;
   max-width: 900px;
   height: auto;
-  margin: 0 auto;
+  margin-inline: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -78,17 +80,17 @@ html {
 }
 
 .title__container {
-  font-size: var(--mobile-size-xl);
+  font-size: var(--mobile-size-xxl);
   font-weight: 700;
   line-height: var(--line-height-large);
   text-wrap: balance;
 }
 
-.title__container--white {
+.text__container--white {
   color: var(--just-white);
 }
 
-.title__container--warm-black {
+.text__container--warm-black {
   color: var(--warm-black);
 }
 
@@ -99,15 +101,19 @@ html {
   text-wrap: pretty;
 }
 
-.paragraph__container--soft-orange {
+.text__size--little {
+  font-size: var(--mobile-size-xs);
+}
+
+.text__container--soft-orange {
   color: var(--soft-orange);
 }
 
-.paragraph__container--gray {
+.text__container--gray {
   color: var(--gray);
 }
 
-.paragraph__container--medium-gray {
+.text__container--medium-gray {
   color: var(--medium-gray);
 }
 
@@ -117,7 +123,7 @@ html {
   bottom: -19px;
   left: 0;
   right: 0;
-  margin: 0 auto;
+  margin-inline: auto;
   width: 76%;
   max-width: 405px;
   height: 38px;
@@ -162,13 +168,14 @@ main {
   background-color: var(--warm-black);
 }
 
-.main__bitcoin-img {
-  display: block;
-  width: 195px;
-  height: 195px;
-  margin: 0 auto;
-  background-image: url("/assets/img/Bitcoin.svg");
-  margin-bottom: 40px;
+.bitcoin-svg {
+  width: 90%;
+  min-width: 320px;
+  max-width: 500px;
+  height: 25vh;
+  padding-inline: 25px;
+  margin-bottom: 25px;
+
 }
 
 .main__table {
@@ -176,7 +183,7 @@ main {
   width: 90%;
   min-width: 235px;
   max-width: 500px;
-  margin: 0 auto;
+  margin-inline: auto;
   font-family: var(--font-inter);
   gap: 5px;
   display: flex;
@@ -189,7 +196,7 @@ main {
 
 .header__title-table {
   margin-bottom: 15px;
-  font-size: var(--mobile-size-m);
+  font-size: var(--mobile-size-l);
   font-weight: 700;
   font-family: var(--font-dm-sans);
   text-align: left;
@@ -311,15 +318,11 @@ main {
 .footer__table {
   width: 80%;
   height: 31px;
-  margin: 0 auto;
+  margin-inline: auto;
   padding-top: 8px;
   margin-top: 18px;
   margin-bottom: 10px;
   border-radius: 8px;
-}
-
-.footer__table p {
-  font-size: var(--mobile-size-xs);
 }
 
 .currency--footer {
@@ -347,7 +350,7 @@ main {
   flex-direction: column;
   justify-content: space-between;
   gap: 16px;
-  margin: 0 auto;
+  margin-inline: auto;
   padding-top: 26px;
 }
 
@@ -359,7 +362,7 @@ main {
 
 .product-detail__card {
   width: 100%;
-  height: 152px;
+  height: 158px;
   background-color: var(--warm-black-1);
   text-align: left;
   border-radius: 4px;
@@ -381,7 +384,7 @@ main {
 }
 
 .header__product-detail-card h3 {
-  font-size: var(--mobile-size-m);
+  font-size: var(--mobile-size-l);
   font-weight: 700;
   color: var(--just-white);
 }
@@ -432,6 +435,7 @@ main {
 .banner__container img {
   width: 100%;
   min-width: 320px;
+  aspect-ratio: 4/3;
   height: 50vh;
   object-fit: cover;
 }
@@ -450,7 +454,7 @@ main {
   width: 90%;
   min-width: 288px;
   max-width: 834px;
-  margin: 0 auto;
+  margin-inline: auto;
   display: flex;
   justify-content: space-between;
   padding-top: 26px;
@@ -494,7 +498,6 @@ main {
 }
 
 .header__plan .header__price-plan sup {
-  font-size: var(--mobile-size-xs);
   font-weight: 500;
   font-family: var(--font-inter);
   color: var(--warm-black);
@@ -502,9 +505,7 @@ main {
 }
 
 .header__saving-plan {
-  font-size: var(--mobile-size-xs);
   font-weight: 500;
-  color: var(--gray);
   line-height: var(--line-height-small);
   margin-top: 10px;
   margin-bottom: 12px;
@@ -514,7 +515,7 @@ main {
   width: 80%;
   min-width: 152px;
   height: 40px;
-  margin: 0 auto;
+  margin-inline: auto;
   background-color: var(--off-white);
   border: 2px solid var(--bitcoin-orange);
   border-radius: 4px;
@@ -541,7 +542,6 @@ main {
   height: 24px;
   background-color: var(--bitcoin-orange);
   border-radius: 8px;
-  font-size: var(--mobile-size-xs);
   font-weight: 700;
   color: var(--just-white);
   padding: 4px;
@@ -564,18 +564,25 @@ main {
 }
 
 .link__container a {
-  font-size: var(--mobile-size-s);
+  text-decoration: none;
+}
+
+.link__container a small p {
+  font-size: var(--mobile-size-ss);
   font-weight: 500;
   color: var(--just-white);
   line-height: var(--line-height-large);
-  text-decoration: none;
+}
+
+.footer--divider {
+  display: none;
 }
 
 .copyright__container {
   display: flex;
   align-items: center;
   gap: 8px;
-  width: 40%;
+  width: 48%;
 }
 
 .copyright__container .logo__batatabit {
@@ -587,7 +594,7 @@ main {
 
 .copyright__container p {
   margin-top: 5px;
-  font-size: 1.3rem;
+  font-size: var(--mobile-size-ss);
   font-weight: 500;
   color: var(--just-white);
   text-wrap: pretty;
@@ -596,15 +603,4 @@ main {
 .copyright__container p a {
   color: #801AD6;
   text-decoration: none;
-}
-
-@media (min-width: 700px) {
-  .container__products-card {
-    flex-direction: row;
-    height: auto;
-  }
-
-  .main__bitcoin-img {
-    background-image: url("/assets/img/bitcoin-large-banner.webp");
-  }
 }
