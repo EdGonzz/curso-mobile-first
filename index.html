@@ -5,14 +5,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>EdGonz - BatataBit</title>
+  <!-- <link rel="preload" href="/css/mobile.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="/css/mobile.css"></noscript> -->
   <link rel="stylesheet" href="/css/mobile.css">
   <link rel="stylesheet" href="/css/tablet.css" media="(min-width: 700px)">
   <link rel="stylesheet" href="/css/desktop.css" media="(min-width: 900px)">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=Inter:wght@300;500;700&display=swap"
-    rel="stylesheet">
 </head>
 
 <body>
@@ -167,7 +164,7 @@
     </section>
     <section id="bitcoin-banner__container" class="banner__container">
       <h2 class="title__container text__container--white top--position">Conócelo hoy.</h2>
-      <picture>
+      <picture loading="lazy">
         <source srcset="/assets/img/bitcoinbaby-2x.webp" media="(min-width: 700px)">
         <img loading="lazy" src="/assets/img/bitcoinbaby-1x.webp"
           alt="Imagen en formato monocromática sepia de una chica sosteniendo a nivel de sus ojos dos Bitcoins">
