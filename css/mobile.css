@@ -87,15 +87,15 @@
 
   /* colors */
   --bitcoin-orange: #F7931A;
-  --soft-orange: #FFE9D4;
+  --soft-orange: #fecda4;
   --secondary-blue: #1A9AF7;
   --soft-blue: #E7F5FF;
   --warm-black: #201E1C;
   --warm-black-1: #282623;
-  --gray: #676767;
+  --gray: #5d5d5d;
   --medium-gray: #7b7b7b;
   --soft-gray: #888888;
-  --off-white: #FAF8F7;
+  --off-white: #efefef;
   --just-white: #FFFFFF;
 }
 

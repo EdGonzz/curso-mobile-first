@@ -11,4 +11,5 @@ En este proyecto me tome la libertad de cambiar algunas cosas como:
 * Mejore el diseño de la landing page.
 * Optimice todos los recursos.
 * Opte por mejorar la semántica del HTML.
-* Utilice la metodología de BEM para ahorrar lineas de código en mi CSS
+* Utilice la metodología de BEM para ahorrar lineas de código en mi CSS.
+* Optimice el SEO y Cree los Open Graph para compartir el link.
