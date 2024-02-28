@@ -4,7 +4,7 @@
   font-style: normal;
   font-display: swap;
   font-weight: 400;
-  src: url(/assets/fonts/dm-sans-latin-400-normal.woff2) format('woff2');
+  src: url("../assets/fonts/dm-sans-latin-400-normal.woff2") format('woff2');
   unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
 }
 
@@ -14,7 +14,7 @@
   font-style: normal;
   font-display: swap;
   font-weight: 500;
-  src: url(/assets/fonts/dm-sans-latin-500-normal.woff2) format('woff2');
+  src: url("../assets/fonts/dm-sans-latin-500-normal.woff2") format('woff2');
   unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
 }
 
@@ -24,7 +24,7 @@
   font-style: normal;
   font-display: swap;
   font-weight: 700;
-  src: url(/assets/fonts/dm-sans-latin-700-normal.woff2) format('woff2');
+  src: url("../assets/fonts/dm-sans-latin-700-normal.woff2") format('woff2');
   unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
 }
 
@@ -34,7 +34,7 @@
   font-style: normal;
   font-display: swap;
   font-weight: 300;
-  src: url(/assets/fonts/inter-latin-300-normal.woff2) format('woff2');
+  src: url("../assets/fonts/inter-latin-300-normal.woff2") format('woff2');
   unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
 }
 
@@ -44,7 +44,7 @@
   font-style: normal;
   font-display: swap;
   font-weight: 500;
-  src: url(/assets/fonts/inter-latin-500-normal.woff2) format('woff2');
+  src: url("../assets/fonts/inter-latin-500-normal.woff2") format('woff2');
   unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
 }
 
@@ -54,7 +54,7 @@
   font-style: normal;
   font-display: swap;
   font-weight: 700;
-  src: url(/assets/fonts/inter-latin-700-normal.woff2) format('woff2');
+  src: url("../assets/fonts/inter-latin-700-normal.woff2") format('woff2');
   unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
 }
 
@@ -202,7 +202,7 @@ html {
   width: 13px;
   height: 8px;
   margin-left: 14px;
-  background-image: url("/assets/icons/down-arrow.svg");
+  background-image: url("../assets/icons/down-arrow.svg");
 }
 
 /* main */
@@ -323,7 +323,7 @@ main {
   width: 12px;
   height: 12px;
   margin-left: 14px;
-  background-image: url("/assets/icons/trending-down.svg");
+  background-image: url("../assets/icons/trending-down.svg");
 }
 
 .table--right span.up-arrow {
@@ -331,7 +331,7 @@ main {
   width: 12px;
   height: 12px;
   margin-left: 14px;
-  background-image: url("/assets/icons/trending-up.svg");
+  background-image: url("../assets/icons/trending-up.svg");
 }
 
 .logo__table--position {
@@ -344,35 +344,35 @@ main {
 }
 
 .btc {
-  background-image: url("/assets/icons/btc.svg");
+  background-image: url("../assets/icons/btc.svg");
 }
 
 .eth {
-  background-image: url("/assets/icons/eth.svg");
+  background-image: url("../assets/icons/eth.svg");
 }
 
 .xrp {
-  background-image: url("/assets/icons/xrp.svg");
+  background-image: url("../assets/icons/xrp.svg");
 }
 
 .xml {
-  background-image: url("/assets/icons/xlm.svg");
+  background-image: url("../assets/icons/xlm.svg");
 }
 
 .binance {
-  background-image: url("/assets/icons/binance.svg");
+  background-image: url("../assets/icons/binance.svg");
 }
 
 .coinbase {
-  background-image: url("/assets/icons/coinbase.svg");
+  background-image: url("../assets/icons/coinbase.svg");
 }
 
 .kucoin {
-  background-image: url("/assets/icons/kucoin.svg");
+  background-image: url("../assets/icons/kucoin.svg");
 }
 
 .kraken {
-  background-image: url("/assets/icons/kraken.svg");
+  background-image: url("../assets/icons/kraken.svg");
 }
 
 .footer__table {
@@ -394,7 +394,7 @@ main {
 }
 
 .divider {
-  background-image: url(/assets/icons/batata.svg);
+  background-image: url("../assets/icons/batata.svg");
   width: 41px;
   height: 25px;
   background-repeat: no-repeat;
@@ -464,19 +464,19 @@ main {
 }
 
 .clock {
-  background-image: url("/assets/icons/clock.svg");
+  background-image: url("../assets/icons/clock.svg");
 }
 
 .eye {
-  background-image: url("/assets/icons/eye.svg");
+  background-image: url("../assets/icons/eye.svg");
 }
 
 .dollar-sign {
-  background-image: url("/assets/icons/dollar-sign.svg");
+  background-image: url("../assets/icons/dollar-sign.svg");
 }
 
 .check-circle {
-  background-image: url("/assets/icons/check-circle.svg");
+  background-image: url("../assets/icons/check-circle.svg");
 }
 
 .banner__container {
@@ -591,7 +591,7 @@ main {
   width: 24px;
   height: 24px;
   margin-left: 8px;
-  background-image: url("/assets/icons/orange-right-arrow.svg");
+  background-image: url("../assets/icons/orange-right-arrow.svg");
 }
 
 .plan__recommended {
@@ -648,7 +648,7 @@ main {
 .copyright__container .logo__batatabit {
   width: 41px;
   height: 25px;
-  background-image: url("/assets/icons/batata.svg");
+  background-image: url("../assets/icons/batata.svg");
   background-repeat: no-repeat;
 }
 
