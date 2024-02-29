@@ -197,12 +197,8 @@ html {
   color: var(--warm-black);
 }
 
-.header__bottom span {
-  display: inline-block;
-  width: 13px;
-  height: 8px;
-  margin-left: 14px;
-  background-image: url("../assets/icons/down-arrow.svg");
+.header__bottom svg {
+  margin-left: 10px;
 }
 
 /* main */
