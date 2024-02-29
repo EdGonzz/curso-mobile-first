@@ -58,3 +58,17 @@
 .product-detail__description {
   font-size: var(--mobile-size-l);
 }
+
+.plan__recommended {
+  width: 112px;
+  left: calc(50% - 56px);
+  padding: 3px;
+}
+
+.button__chosse-plan {
+  cursor: pointer;
+}
+
+.link__container a small p:hover, .copyright__container p a:hover {
+  text-decoration: underline;
+}
